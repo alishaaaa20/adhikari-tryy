@@ -8,12 +8,11 @@ export default function Page() {
       <img
         src="/register/register1.svg"
         alt="logo"
-        width={400}
-        className="absolute top-0 left-0 hidden lg:block xl:block"
+        className="absolute top-0 left-0 lg:w-[400px] xl:w-[400px] md:w-[300px] w-[150px]"
       />
       <div className="flex justify-center items-center min-h-screen">
         <div className="w-[500px] mt-16 rounded-lg p-8">
-          <h1 className="text-center font-medium text-5xl leading-snug">
+          <h1 className="text-center font-medium xl:text-5xl text-3xl md:text-4xl lg:text-5xl leading-snug">
             डिजिटल बंशावलीमा
             <br /> हजुरलाई स्वागत छ
           </h1>
@@ -118,7 +117,7 @@ export default function Page() {
         src="/register/register2.svg"
         alt="logo"
         width={500}
-        className="absolute bottom-[-250px] right-0  hidden lg:block xl:block"
+        className="absolute xl:bottom-[-200px]  lg:bottom-[-100px] right-20  hidden lg:block xl:block w-[250px] md:w-[350px] lg:w-[300px] xl:w-[400px]"
       />
     </div>
   );

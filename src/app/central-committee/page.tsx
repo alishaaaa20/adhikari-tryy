@@ -59,7 +59,7 @@ export default function Page() {
         src="/leafs/right.svg"
         alt="logo"
         width={600}
-        className="absolute top-0 right-0 mt-0 mr-0 hidden lg:block xl:block"
+        className="absolute top-[-50px] right-[-50px] mt-0 mr-0 hidden lg:block xl:block"
       />
       <div className="text-left ">
         <div className="rounded-lg sm:ml-16  lg:ml-16 md:ml-16">

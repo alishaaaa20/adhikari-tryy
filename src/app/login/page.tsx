@@ -8,8 +8,7 @@ export default function Page() {
       <img
         src="/login/login1.svg"
         alt="logo"
-        width={600}
-        className="absolute top-0 right-0 mt-0 mr-0 hidden lg:block xl:block"
+        className="absolute top-[-50px] right-0 mt-0 mr-0 w-[300px] md:w-[400px] lg:w-[400px] xl:w-[600px] "
       />
       <div className="flex justify-center items-center min-h-screen">
         <div className="w-[500px] mt-16 rounded-lg  p-8 ">
@@ -43,7 +42,7 @@ export default function Page() {
                 />
               </div>
 
-              <div className="flex justify-between items-center mt-5">
+              <div className="flex justify-between flex-col lg:flex-row md:flex-row lg:items-center mt-5">
                 <div className="flex items-center">
                   <input
                     type="checkbox"
@@ -56,7 +55,7 @@ export default function Page() {
                 </div>
                 <a
                   href="/forgot-password"
-                  className="hover:underline text-blue-700"
+                  className="hover:underline text-blue-700 mt-2 lg:mt-0 md:mt-0 "
                 >
                   Forgot Password?
                 </a>
@@ -85,8 +84,7 @@ export default function Page() {
       <img
         src="/login/login.svg"
         alt="logo"
-        width={300}
-        className="absolute bottom-0 left-0 mb-10 ml-10 hidden lg:block xl:block"
+        className="absolute bottom-[-200px] left-[-50px] mb-10 ml-10 hidden lg:block xl:block w-[250px] md:w-[350px] lg:w-[300px] xl:w-[400px]"
       />
     </div>
   );

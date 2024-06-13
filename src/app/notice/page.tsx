@@ -65,11 +65,16 @@ export default function Page() {
   ];
 
   return (
-    <div className="2xl:container mx-auto px-3 sm:px-8 py-8">
-      <div>
-        <h1 className="text-3xl font-semibold mb-6 lg:text-left ">Notices</h1>
+    <div className="2xl:container mx-auto px-3 sm:px-8 py-8 relative">
+      <img
+        src="/login/login1.svg"
+        alt="logo"
+        className="absolute top-[-50px] right-0 mt-0 mr-0 w-[300px] md:w-[400px] lg:w-[400px] xl:w-[600px] z-0"
+      />
+      <div className="relative z-10">
+        <h1 className="text-3xl font-semibold mb-6 lg:text-left">Notices</h1>
       </div>
-      <div className="items-center justify-center flex lg:justify-start md:justify-start ">
+      <div className="items-center justify-center flex lg:justify-start md:justify-start relative z-10">
         <div className="flex justify-start sm:items-center items-start sm:flex-row flex-col gap-2">
           <Select>
             <SelectTrigger className="w-[250px] sm:w-[250px] h-10 bg-white rounded-lg border-0 text-md text-gray-500 shadow-lg">
@@ -94,7 +99,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row mt-8 gap-8">
+      <div className="flex flex-col lg:flex-row mt-8 gap-8 relative z-10">
         <div className="w-full lg:w-1/2">
           {notices.map((item, index) => (
             <div
@@ -115,11 +120,11 @@ export default function Page() {
             </div>
           ))}
         </div>
-        <div className="w-full lg:w-1/3 bg-white rounded-lg shadow-lg lg:ml-32   h-full p-4">
+        <div className="w-full lg:w-1/3 bg-white rounded-lg shadow-lg lg:ml-32 h-full p-4">
           <h1 className="text-2xl font-semibold mb-6 lg:text-left">
             Important Notices
           </h1>
-          <div className="xl:mx-6 xl:py-8 md:m-2  overflow-y-auto h-[500px]">
+          <div className="xl:mx-6 xl:py-8 md:m-2 overflow-y-auto h-[500px]">
             {Impnotices.map((item, index) => (
               <Card
                 key={index}
@@ -129,7 +134,7 @@ export default function Page() {
                   <div>
                     <h2 className="text-lg font-medium mb-2">{item.title}</h2>
                   </div>
-                  <div className="flex justify-between  items-center">
+                  <div className="flex justify-between items-center">
                     <span className="text-gray-500">{item.date}</span>
                     <a href="#" className="text-[#183760] hover:underline">
                       Read More
