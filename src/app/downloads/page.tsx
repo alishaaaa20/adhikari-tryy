@@ -13,13 +13,18 @@ export default function Page() {
 
   return (
     <div className="flex flex-col m-4 p-4 ml-6">
+      <img
+        src="/login/login1.svg"
+        alt="logo"
+        className="absolute top-[-50px] right-0 mt-0 mr-0 w-[300px] md:w-[400px] lg:w-[400px] xl:w-[600px] z-0"
+      />
       <div>
         <h1 className="text-3xl lg:text-4xl font-bold p-4">Downloads</h1>
       </div>
       {downloadItems.map((item, index) => (
         <div
           key={index}
-          className="flex justify-between w-full h-auto items-center p-4 mt-4 container rounded-lg bg-white shadow-md"
+          className="flex justify-between w-full h-auto items-center p-4 mt-4 container rounded-lg bg-white shadow-md z-10"
         >
           <div className="flex items-center cursor-pointer">
             <Image
