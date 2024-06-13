@@ -3,7 +3,12 @@ import React from "react";
 export default function Page() {
   return (
     <div className=" 2xl:container mx-4 my-8 ">
-      <div className="lg:text-left text-center">
+      <img
+        src="/login/login1.svg"
+        alt="logo"
+        className="absolute top-[-50px] right-0 mt-0 mr-0 w-[300px] md:w-[400px] lg:w-[400px] xl:w-[600px] z-0"
+      />
+      <div className="lg:text-left text-center z-10">
         <div className=" rounded-lg p-6">
           <h1 className="text-4xl font-medium mb-2">
             मेरो देश मेरो गौरव/स्वर्ग
@@ -26,7 +31,7 @@ export default function Page() {
             className=""
           />
 
-          <div className="leading-relaxed  text-justify mt-4 lg:mt-0  lg:ml-8 lg:text-starts text-lg">
+          <div className="leading-relaxed z-10 text-justify mt-4 lg:mt-0  lg:ml-8 lg:text-starts bg-white text-lg">
             <p>
               मान्छेले आफ्ना मातापितासरह कसैलाई माया गर्छ भने त्यो हो-जन्मभूमि ।{" "}
             </p>
@@ -48,7 +53,7 @@ export default function Page() {
             </p>
           </div>
         </div>
-        <div className="leading-relaxed text-justify  text-starts text-lg mt-8">
+        <div className="leading-relaxed text-justify z-10 text-starts text-lg mt-8">
           <p>
             मलाई गौरव लाग्छ । म आफ्नो जन्मभूमिप्रति सचेत र इमानदार छु । भन्नेले
             जे भने पनि हुन्छ, तर म आफ्नो गौरव, आफ्नो अभिभावक आफ्नो जन्मभूमिलाई

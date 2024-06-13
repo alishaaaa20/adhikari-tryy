@@ -56,13 +56,12 @@ export default function Page() {
   return (
     <div className="2xl:container mx-auto px-8 my-8 py-0">
       <img
-        src="/leafs/right.svg"
+        src="/login/login1.svg"
         alt="logo"
-        width={600}
-        className="absolute top-[-50px] right-[-50px] mt-0 mr-0 hidden lg:block xl:block"
+        className="absolute top-[-50px] right-0 mt-0 mr-0 w-[300px] md:w-[400px] lg:w-[400px] xl:w-[600px] z-0"
       />
       <div className="text-left ">
-        <div className="rounded-lg sm:ml-16  lg:ml-16 md:ml-16">
+        <div className="rounded-lg sm:ml-16 z-10 relative lg:ml-16 md:ml-16">
           <h1 className="text-4xl font-semibold ">Central Committee</h1>
         </div>
 

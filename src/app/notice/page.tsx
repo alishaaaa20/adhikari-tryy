@@ -107,11 +107,13 @@ export default function Page() {
               className="flex flex-col lg:flex-row justify-between w-full h-auto items-center p-4 mt-4 rounded-lg bg-white shadow-md"
             >
               <div className="flex flex-col gap-1 leading-relaxed">
-                <h1 className="text-xl lg:text-xl font-medium">{item.title}</h1>
-                <p className="text-sm lg:text-[16px] text-gray-600">
+                <h1 className="text-xl lg:text-2xl font-medium">
+                  {item.title}
+                </h1>
+                <p className="text-md lg:text-lg text-gray-600">
                   {item.decription}
                 </p>
-                <p className="text-sm lg:text-base mt-6 justify-end flex">
+                <p className="text-md lg:text-base mt-6 justify-end flex">
                   <a href="#" className="text-[#183760] hover:underline">
                     Read More
                   </a>
@@ -128,7 +130,7 @@ export default function Page() {
             {Impnotices.map((item, index) => (
               <Card
                 key={index}
-                className="h-[100px] lg:h-[120px] md:h-[120px] w-full bg-white shadow-lg rounded mb-4"
+                className="h-[120px] lg:h-[120px] md:h-[120px] w-full bg-white shadow-lg rounded mb-4"
               >
                 <CardContent className="flex flex-col justify-between p-4 mb-4 lg:mb-0 h-full">
                   <div>

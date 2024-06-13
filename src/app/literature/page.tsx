@@ -3,7 +3,12 @@ import React from "react";
 export default function Page() {
   return (
     <div className="container mx-auto px-8 py-16">
-      <div className="flex flex-col  lg:flex-row mb-8 items-center lg:items-start justify-center lg:justify-start">
+      <img
+        src="/login/login1.svg"
+        alt="logo"
+        className="absolute top-[-50px] right-0 mt-0 mr-0 w-[300px] md:w-[400px] lg:w-[400px] xl:w-[600px] z-0"
+      />
+      <div className="flex flex-col z-10 lg:flex-row mb-8 items-center lg:items-start justify-center lg:justify-start">
         <div className="text-center lg:sticky lg:top-20  lg:text-left lg:ml-8 ">
           <div className="float-left mr-4 mb-8">
             <img
@@ -17,7 +22,7 @@ export default function Page() {
           </h1>
           <p className="text-gray-600 mb-0 mb-8 lg:text-center">2024-05-10</p>
         </div>
-        <div className="w-full lg:w-[450px] leading-relaxed md:w-[400px] sm:w-[400px]  rounded lg:ml-0 leading-relaxed lg:ml-64 text-center text-lg shadow-lg rounded bg-white p-4">
+        <div className="w-full lg:w-[450px] leading-relaxed  z-10 md:w-[400px] sm:w-[400px]  rounded lg:ml-0 leading-relaxed lg:ml-64 text-center text-lg shadow-lg rounded bg-white p-4">
           <p className="leading-relaxed">
             नेपालको मनमा, धरतीमा, इतिहासका कथाहरू विस्तारमा,
             <br />
