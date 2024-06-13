@@ -21,13 +21,13 @@ export default function Page() {
             <div className="flex flex-col mt-5">
               <div className="mt-5">
                 <Label className="text-md" htmlFor="email">
-                  Email <span className="text-red-500">*</span>
+                  Phone <span className="text-red-500">*</span>
                 </Label>
                 <Input
-                  type="email"
-                  id="email"
-                  placeholder="Enter your email"
-                  className="rounded border-gray-600 text-gray-400"
+                  type="text"
+                  id="phone"
+                  placeholder="Enter your phone number"
+                  className="rounded border-gray-600 text-gray-500"
                 />
               </div>
 
@@ -39,7 +39,7 @@ export default function Page() {
                   type="password"
                   id="password"
                   placeholder="Enter your password"
-                  className="rounded border-gray-600 text-gray-400"
+                  className="rounded border-gray-600 text-gray-500"
                 />
               </div>
 
