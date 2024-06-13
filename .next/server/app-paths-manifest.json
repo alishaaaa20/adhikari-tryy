@@ -1,7 +1,4 @@
 {
-  "/notice/page": "app/notice/page.js",
-  "/central-committee/page": "app/central-committee/page.js",
-  "/login/page": "app/login/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/register/page": "app/register/page.js"
+  "/downloads/page": "app/downloads/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

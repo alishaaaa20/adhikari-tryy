@@ -15,7 +15,7 @@ import {
 export default function Page() {
   const Impnotices = [
     {
-      title: "केन्द्रिय कार्य समिती वैठक, साधारणसभा सूचना",
+      title: "केन्द्रिय कार्य समिती वैठक, साधारणसभा सूचना ",
       date: "2024-05-10",
     },
     {
@@ -72,8 +72,8 @@ export default function Page() {
       <div className="items-center justify-center flex lg:justify-start md:justify-start ">
         <div className="flex justify-start sm:items-center items-start sm:flex-row flex-col gap-2">
           <Select>
-            <SelectTrigger className="w-[250px] sm:w-[250px] h-10 bg-white rounded-lg border-0 text-md text-gray-400 shadow-lg">
-              <SelectValue placeholder="Select a Notice" className="text-md" />
+            <SelectTrigger className="w-[250px] sm:w-[250px] h-10 bg-white rounded-lg border-0 text-md text-gray-500 shadow-lg">
+              <SelectValue placeholder="Select a Notice" />
             </SelectTrigger>
             <SelectContent className="bg-white rounded-lg shadow-lg">
               <SelectGroup>
@@ -120,7 +120,7 @@ export default function Page() {
             Important Notices
           </h1>
           <div className="xl:mx-6 xl:py-8 md:m-2  overflow-y-auto h-[500px]">
-            {Impnotices.slice(0, 4).map((item, index) => (
+            {Impnotices.map((item, index) => (
               <Card
                 key={index}
                 className="h-[100px] lg:h-[120px] md:h-[120px] w-full bg-white shadow-lg rounded mb-4"
@@ -138,13 +138,6 @@ export default function Page() {
                 </CardContent>
               </Card>
             ))}
-            {Impnotices.length > 4 && (
-              <div className="text-center mt-4">
-                <a href="#" className="text-[#183760] hover:underline">
-                  View More
-                </a>
-              </div>
-            )}
           </div>
         </div>
       </div>
