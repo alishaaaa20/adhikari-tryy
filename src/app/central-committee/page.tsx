@@ -60,9 +60,11 @@ export default function Page() {
         alt="logo"
         className="absolute top-[-50px] right-0 mt-0 mr-0 w-[300px] md:w-[400px] lg:w-[400px] xl:w-[600px] z-0"
       />
-      <div className="text-left ">
+      <div className="lg:text-left text-center">
         <div className="rounded-lg sm:ml-16 z-10 relative lg:ml-16 md:ml-16">
-          <h1 className="text-4xl font-semibold ">Central Committee</h1>
+          <h1 className="lg:text-4xl  text-3xl font-semibold ">
+            Central Committee
+          </h1>
         </div>
 
         <div className="flex relative mt-10 justify-center items-center">

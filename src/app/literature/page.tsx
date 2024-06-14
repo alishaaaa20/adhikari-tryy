@@ -9,12 +9,12 @@ export default function Page() {
         className="absolute top-[-50px] right-0 mt-0 mr-0 w-[300px] md:w-[400px] lg:w-[400px] xl:w-[600px] z-0"
       />
       <div className="flex flex-col z-10 lg:flex-row mb-8 items-center lg:items-start justify-center lg:justify-start">
-        <div className="text-center lg:sticky lg:top-20  lg:text-left lg:ml-8 ">
+        <div className="text-center lg:sticky flex-shrink-0 lg:top-20 z-10 lg:text-left lg:ml-8 ">
           <div className="float-left mr-4 mb-8">
             <img
               src="/rajesh/hamal.svg"
               alt="literature collection"
-              className="rounded-full"
+              className="rounded-full w-40 h-40 object-cover"
             />
           </div>
           <h1 className="text-3xl font-bold mt-6 mb-2 lg:text-center font-bold ">
@@ -43,7 +43,7 @@ export default function Page() {
             क्योंकि नेपालको इतिहासको गहिरो भित्र, <br /> समृद्धताको खोजी,
             न्यायको निर्देशन। <br /> जातीय विविधतामा, एकतामा सहारा पाइ, <br />
             हरेक आत्मा, चाहे जाति भए वा नभए, <br /> मिल्छ एकता मा आत्म-विश्वास,
-            मिल्छ शक्ति जब भए ।{" "}
+            मिल्छ शक्ति जब भए ।
           </p>
           <p className="mt-4">
             त्यसैले हाम्रो अत्ती, पुरानो गलियोमा, <br /> तालाबारी, भविष्यको

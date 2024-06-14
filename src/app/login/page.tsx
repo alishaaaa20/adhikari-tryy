@@ -11,8 +11,8 @@ export default function Page() {
         className="absolute top-[-50px] right-0 mt-0 mr-0 w-[300px] md:w-[400px] lg:w-[400px] xl:w-[600px] "
       />
       <div className="flex justify-center items-center min-h-screen">
-        <div className="w-[500px] mt-16 rounded-lg  p-8 ">
-          <h1 className="text-center  text-3xl font-semibold lg:text-5xl lg:leading-snug leading-snug">
+        <div className="w-[400px] mt-16 rounded-lg  ">
+          <h1 className="text-center  text-3xl font-semibold lg:text-4xl lg:leading-snug leading-snug">
             डिजिटल बंशावलीमा
             <br /> हजुरलाई स्वागत छ
           </h1>
@@ -84,7 +84,7 @@ export default function Page() {
       <img
         src="/login/login.svg"
         alt="logo"
-        className="absolute bottom-[-200px] left-[-50px] mb-10 ml-10 hidden lg:block xl:block w-[250px] md:w-[350px] lg:w-[300px] xl:w-[400px]"
+        className="absolute bottom-[-50px] left-0 mb-10 ml-10 hidden lg:block xl:block w-[250px] md:w-[250px] lg:w-[200px] xl:w-[300px]"
       />
     </div>
   );
